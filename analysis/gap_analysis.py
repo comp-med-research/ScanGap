@@ -11,6 +11,9 @@ Expected results layout:
         predictions.json   # output of run_models.py
     {dataset}/
       ground_truth.json    # {filename: gt_text}
+
+Real5-OmniDocBench scanning tier scores are loaded from:
+  data/real5_baseline.json  (pre-published, no inference needed)
 """
 
 import json
@@ -19,84 +22,121 @@ from pathlib import Path
 import pandas as pd
 from evaluation.metrics import score_page
 
+RESULTS_DIR = Path("results")
+DATA_DIR    = Path("data")
 
-# Ordered from least to most degraded — defines the spectrum axis
+# Ordered from least to most degraded — defines the spectrum axis in the paper
 DATASET_ORDER = [
-    ("omnidocbench_digital", "OmniDocBench (digital)"),
-    ("omnidocbench_scanned", "OmniDocBench (fuzzy_scan)"),
-    ("real5",                "Real5-OmniDocBench (scan tier)"),
-    ("funsd",                "FUNSD"),
-    ("wildscans",            "ScanGap (wild historical)"),
+    ("omnidocbench_digital",  "OmniDocBench (digital-native)"),
+    ("omnidocbench_scanned",  "OmniDocBench (fuzzy_scan, n=28)"),
+    ("real5_scan",            "Real5-OmniDocBench (scan tier)"),
+    ("funsd",                 "FUNSD"),
+    ("wildscans",             "ScanGap (wild historical)"),
 ]
 
-MODELS = ["tesseract", "paddleocr", "surya", "gpt4o", "gemini", "qwen"]
 
-
-def load_ground_truth(results_dir: Path, dataset: str) -> dict:
-    gt_path = results_dir / dataset / "ground_truth.json"
+def load_ground_truth(dataset: str) -> dict:
+    gt_path = RESULTS_DIR / dataset / "ground_truth.json"
     if not gt_path.exists():
         return {}
     with open(gt_path) as f:
         return json.load(f)
 
 
-def load_predictions(results_dir: Path, dataset: str, model: str) -> dict:
-    pred_path = results_dir / dataset / model / "predictions.json"
+def load_predictions(dataset: str, model: str) -> dict:
+    pred_path = RESULTS_DIR / dataset / model / "predictions.json"
     if not pred_path.exists():
         return {}
     with open(pred_path) as f:
         return json.load(f)
 
 
-def score_dataset(results_dir: Path, dataset: str, model: str) -> dict | None:
-    gt = load_ground_truth(results_dir, dataset)
-    preds = load_predictions(results_dir, dataset, model)
+def score_dataset(dataset: str, model: str) -> dict | None:
+    gt    = load_ground_truth(dataset)
+    preds = load_predictions(dataset, model)
     if not gt or not preds:
         return None
 
     scores = []
     for filename, gt_text in gt.items():
-        pred_entry = preds.get(filename)
-        if pred_entry is None or pred_entry["prediction"] is None:
+        entry = preds.get(filename)
+        if entry is None or entry["prediction"] is None:
             continue
-        scores.append(score_page(pred_entry["prediction"], gt_text))
+        scores.append(score_page(entry["prediction"], gt_text))
 
     if not scores:
         return None
 
     return {
-        "ned":   sum(s["ned"] for s in scores) / len(scores),
-        "cer":   sum(s["cer"] for s in scores) / len(scores),
-        "wer":   sum(s["wer"] for s in scores) / len(scores),
-        "n":     len(scores),
+        "ned": sum(s["ned"] for s in scores) / len(scores),
+        "cer": sum(s["cer"] for s in scores) / len(scores),
+        "wer": sum(s["wer"] for s in scores) / len(scores),
+        "n":   len(scores),
     }
 
 
-def build_spectrum_table(results_dir: Path) -> pd.DataFrame:
-    rows = []
+def load_real5_baselines() -> dict:
+    """Return {model_key: {text_ned, overall, ...}} from pre-published results."""
+    path = DATA_DIR / "real5_baseline.json"
+    if not path.exists():
+        return {}
+    with open(path) as f:
+        data = json.load(f)
+    return {k: v for k, v in data.items() if not k.startswith("_")}
+
+
+def build_spectrum_table() -> pd.DataFrame:
+    from evaluation.run_models import MODELS
+
+    real5 = load_real5_baselines()
+    rows  = []
+
     for dataset_key, dataset_label in DATASET_ORDER:
-        for model in MODELS:
-            result = score_dataset(results_dir, dataset_key, model)
+
+        # Real5 scores come from the published baseline, not our inference
+        if dataset_key == "real5_scan":
+            for model_key, meta in MODELS.items():
+                baseline = real5.get(model_key)
+                if baseline is None:
+                    continue
+                rows.append({
+                    "dataset":  dataset_label,
+                    "model":    meta["label"],
+                    "category": meta["category"],
+                    "params":   meta["params"],
+                    "n":        1355,
+                    "NED":      round(baseline["text_ned"], 4),
+                    "CER":      None,
+                    "WER":      None,
+                    "overall_real5": round(baseline["overall"], 2),
+                })
+            continue
+
+        for model_key, meta in MODELS.items():
+            result = score_dataset(dataset_key, model_key)
             if result is None:
                 continue
             rows.append({
-                "dataset":  dataset_label,
-                "model":    model,
-                "n":        result["n"],
-                "NED":      round(result["ned"], 4),
-                "CER":      round(result["cer"], 4),
-                "WER":      round(result["wer"], 4),
+                "dataset":       dataset_label,
+                "model":         meta["label"],
+                "category":      meta["category"],
+                "params":        meta["params"],
+                "n":             result["n"],
+                "NED":           round(result["ned"], 4),
+                "CER":           round(result["cer"], 4),
+                "WER":           round(result["wer"], 4),
+                "overall_real5": None,
             })
 
     return pd.DataFrame(rows)
 
 
 if __name__ == "__main__":
-    results_dir = Path("results")
-    df = build_spectrum_table(results_dir)
+    df = build_spectrum_table()
     if df.empty:
         print("No results found. Run evaluation/run_models.py first.")
     else:
         print(df.to_string(index=False))
-        df.to_csv(results_dir / "gap_analysis.csv", index=False)
-        print(f"\nSaved to {results_dir / 'gap_analysis.csv'}")
+        out = RESULTS_DIR / "gap_analysis.csv"
+        df.to_csv(out, index=False)
+        print(f"\nSaved to {out}")

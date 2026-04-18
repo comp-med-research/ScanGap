@@ -1,0 +1,517 @@
+2026-04-16 21:27:11,993 INFO Loaded 596 existing hashes (WildDocBench + prior runs)
+2026-04-16 21:27:11,994 INFO Output: /home/ubuntu/projects/ScanGap/data/wildscans_candidates/national_archives
+2026-04-16 21:27:11,994 INFO Loaded 596 existing hashes
+2026-04-16 21:27:11,994 INFO Targets: 19
+
+2026-04-16 21:27:11,994 INFO 
+── pre1950s / partial (quota=6) ──
+2026-04-16 21:27:11,994 INFO   Query [pre1950s/partial]: application form filled
+2026-04-16 21:27:12,935 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:13,737 INFO   Query [pre1950s/partial]: official form completed
+2026-04-16 21:27:14,049 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:14,851 INFO   Query [pre1950s/partial]: registration form handwritten
+2026-04-16 21:27:15,327 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:16,128 INFO   Query [pre1950s/partial]: questionnaire filled
+2026-04-16 21:27:17,603 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:18,405 INFO   Query [pre1950s/partial]: printed form annotated handwritten
+2026-04-16 21:27:18,828 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:19,629 INFO   Query [pre1950s/partial]: typed letter signed
+2026-04-16 21:27:20,064 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:20,866 INFO 
+── pre1950s / majority (quota=6) ──
+2026-04-16 21:27:20,866 INFO   Query [pre1950s/majority]: handwritten memorandum
+2026-04-16 21:27:21,297 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:22,099 INFO   Query [pre1950s/majority]: handwritten petition
+2026-04-16 21:27:22,394 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:23,196 INFO   Query [pre1950s/majority]: correspondence letter
+2026-04-16 21:27:23,617 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:24,419 INFO   Query [pre1950s/majority]: military record handwritten
+2026-04-16 21:27:24,850 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:25,652 INFO   Query [pre1950s/majority]: census schedule handwritten
+2026-04-16 21:27:26,075 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:26,877 INFO 
+── pre1950s / high (quota=4) ──
+2026-04-16 21:27:26,878 INFO   Query [pre1950s/high]: handwritten letter correspondence
+2026-04-16 21:27:27,306 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:28,108 INFO   Query [pre1950s/high]: personal letter manuscript
+2026-04-16 21:27:28,533 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:29,335 INFO   Query [pre1950s/high]: diary journal handwritten
+2026-04-16 21:27:29,649 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:30,451 INFO   Query [pre1950s/high]: field report handwritten
+2026-04-16 21:27:30,884 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:31,685 INFO   Query [pre1950s/high]: military correspondence handwritten
+2026-04-16 21:27:32,019 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:32,822 INFO 
+── 1950s / partial (quota=4) ──
+2026-04-16 21:27:32,822 INFO   Query [1950s/partial]: application form filled
+2026-04-16 21:27:33,261 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:34,062 INFO   Query [1950s/partial]: official form completed
+2026-04-16 21:27:34,488 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:35,290 INFO   Query [1950s/partial]: registration form handwritten
+2026-04-16 21:27:35,715 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:36,516 INFO   Query [1950s/partial]: questionnaire filled
+2026-04-16 21:27:36,936 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:37,738 INFO   Query [1950s/partial]: printed form annotated handwritten
+2026-04-16 21:27:38,174 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:38,976 INFO   Query [1950s/partial]: typed letter signed
+2026-04-16 21:27:39,426 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:40,228 INFO 
+── 1950s / majority (quota=4) ──
+2026-04-16 21:27:40,228 INFO   Query [1950s/majority]: handwritten memorandum
+2026-04-16 21:27:40,655 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:41,457 INFO   Query [1950s/majority]: handwritten petition
+2026-04-16 21:27:41,886 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:42,687 INFO   Query [1950s/majority]: correspondence letter
+2026-04-16 21:27:42,992 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:43,794 INFO   Query [1950s/majority]: military record handwritten
+2026-04-16 21:27:44,217 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:45,019 INFO   Query [1950s/majority]: census schedule handwritten
+2026-04-16 21:27:45,445 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:46,248 INFO 
+── 1960s / partial (quota=4) ──
+2026-04-16 21:27:46,248 INFO   Query [1960s/partial]: application form filled
+2026-04-16 21:27:46,554 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:47,355 INFO   Query [1960s/partial]: official form completed
+2026-04-16 21:27:47,671 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:48,472 INFO   Query [1960s/partial]: registration form handwritten
+2026-04-16 21:27:48,909 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:49,711 INFO   Query [1960s/partial]: questionnaire filled
+2026-04-16 21:27:50,170 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:50,972 INFO   Query [1960s/partial]: printed form annotated handwritten
+2026-04-16 21:27:51,406 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:52,208 INFO   Query [1960s/partial]: typed letter signed
+2026-04-16 21:27:52,520 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:53,322 INFO 
+── 1960s / majority (quota=2) ──
+2026-04-16 21:27:53,322 INFO   Query [1960s/majority]: handwritten memorandum
+2026-04-16 21:27:53,744 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:54,546 INFO   Query [1960s/majority]: handwritten petition
+2026-04-16 21:27:54,884 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:55,686 INFO   Query [1960s/majority]: correspondence letter
+2026-04-16 21:27:56,113 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:56,915 INFO   Query [1960s/majority]: military record handwritten
+2026-04-16 21:27:57,339 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:58,141 INFO   Query [1960s/majority]: census schedule handwritten
+2026-04-16 21:27:58,575 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:27:59,378 INFO 
+── 1960s / high (quota=2) ──
+2026-04-16 21:27:59,378 INFO   Query [1960s/high]: handwritten letter correspondence
+2026-04-16 21:27:59,728 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:00,530 INFO   Query [1960s/high]: personal letter manuscript
+2026-04-16 21:28:00,963 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:01,764 INFO   Query [1960s/high]: diary journal handwritten
+2026-04-16 21:28:02,204 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:03,006 INFO   Query [1960s/high]: field report handwritten
+2026-04-16 21:28:03,459 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:04,261 INFO   Query [1960s/high]: military correspondence handwritten
+2026-04-16 21:28:04,693 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:05,495 INFO 
+── 1970s / partial (quota=4) ──
+2026-04-16 21:28:05,496 INFO   Query [1970s/partial]: application form filled
+2026-04-16 21:28:05,858 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:06,660 INFO   Query [1970s/partial]: official form completed
+2026-04-16 21:28:07,080 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:07,881 INFO   Query [1970s/partial]: registration form handwritten
+2026-04-16 21:28:08,310 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:09,112 INFO   Query [1970s/partial]: questionnaire filled
+2026-04-16 21:28:09,433 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:10,234 INFO   Query [1970s/partial]: printed form annotated handwritten
+2026-04-16 21:28:10,659 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:11,461 INFO   Query [1970s/partial]: typed letter signed
+2026-04-16 21:28:11,748 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:12,550 INFO 
+── 1970s / majority (quota=4) ──
+2026-04-16 21:28:12,551 INFO   Query [1970s/majority]: handwritten memorandum
+2026-04-16 21:28:13,369 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:14,171 INFO   Query [1970s/majority]: handwritten petition
+2026-04-16 21:28:14,628 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:15,430 INFO   Query [1970s/majority]: correspondence letter
+2026-04-16 21:28:15,858 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:16,660 INFO   Query [1970s/majority]: military record handwritten
+2026-04-16 21:28:16,972 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:17,773 INFO   Query [1970s/majority]: census schedule handwritten
+2026-04-16 21:28:18,202 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:19,004 INFO 
+── 1970s / high (quota=3) ──
+2026-04-16 21:28:19,004 INFO   Query [1970s/high]: handwritten letter correspondence
+2026-04-16 21:28:19,439 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:20,241 INFO   Query [1970s/high]: personal letter manuscript
+2026-04-16 21:28:20,568 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:21,370 INFO   Query [1970s/high]: diary journal handwritten
+2026-04-16 21:28:21,795 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:22,597 INFO   Query [1970s/high]: field report handwritten
+2026-04-16 21:28:22,916 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:23,718 INFO   Query [1970s/high]: military correspondence handwritten
+2026-04-16 21:28:24,152 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:24,955 INFO 
+── 1980s / partial (quota=6) ──
+2026-04-16 21:28:24,955 INFO   Query [1980s/partial]: application form filled
+2026-04-16 21:28:25,384 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:26,186 INFO   Query [1980s/partial]: official form completed
+2026-04-16 21:28:26,623 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:27,425 INFO   Query [1980s/partial]: registration form handwritten
+2026-04-16 21:28:27,884 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:28,686 INFO   Query [1980s/partial]: questionnaire filled
+2026-04-16 21:28:29,121 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:29,923 INFO   Query [1980s/partial]: printed form annotated handwritten
+2026-04-16 21:28:30,407 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:31,209 INFO   Query [1980s/partial]: typed letter signed
+2026-04-16 21:28:31,504 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:32,306 INFO 
+── 1980s / majority (quota=6) ──
+2026-04-16 21:28:32,306 INFO   Query [1980s/majority]: handwritten memorandum
+2026-04-16 21:28:32,779 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:33,581 INFO   Query [1980s/majority]: handwritten petition
+2026-04-16 21:28:33,999 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:34,800 INFO   Query [1980s/majority]: correspondence letter
+2026-04-16 21:28:35,233 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:36,035 INFO   Query [1980s/majority]: military record handwritten
+2026-04-16 21:28:36,453 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:37,255 INFO   Query [1980s/majority]: census schedule handwritten
+2026-04-16 21:28:37,678 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:38,480 INFO 
+── 1990s / partial (quota=6) ──
+2026-04-16 21:28:38,480 INFO   Query [1990s/partial]: application form filled
+2026-04-16 21:28:38,900 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:39,702 INFO   Query [1990s/partial]: official form completed
+2026-04-16 21:28:40,136 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:40,937 INFO   Query [1990s/partial]: registration form handwritten
+2026-04-16 21:28:41,367 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:42,169 INFO   Query [1990s/partial]: questionnaire filled
+2026-04-16 21:28:42,593 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:43,394 INFO   Query [1990s/partial]: printed form annotated handwritten
+2026-04-16 21:28:43,822 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:44,624 INFO   Query [1990s/partial]: typed letter signed
+2026-04-16 21:28:45,111 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:45,914 INFO 
+── 1990s / majority (quota=6) ──
+2026-04-16 21:28:45,915 INFO   Query [1990s/majority]: handwritten memorandum
+2026-04-16 21:28:46,341 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:47,143 INFO   Query [1990s/majority]: handwritten petition
+2026-04-16 21:28:47,431 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:48,233 INFO   Query [1990s/majority]: correspondence letter
+2026-04-16 21:28:48,657 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:49,459 INFO   Query [1990s/majority]: military record handwritten
+2026-04-16 21:28:49,753 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:50,555 INFO   Query [1990s/majority]: census schedule handwritten
+2026-04-16 21:28:50,863 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:51,666 INFO 
+── 1990s / minimal (quota=3) ──
+2026-04-16 21:28:51,666 INFO   Query [1990s/minimal]: official report signed
+2026-04-16 21:28:52,099 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:52,901 INFO   Query [1990s/minimal]: typed memorandum
+2026-04-16 21:28:53,379 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:54,181 INFO   Query [1990s/minimal]: government report signature
+2026-04-16 21:28:54,609 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:55,411 INFO   Query [1990s/minimal]: typewritten correspondence signed
+2026-04-16 21:28:55,846 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:56,649 INFO 
+── 2000s / partial (quota=5) ──
+2026-04-16 21:28:56,649 INFO   Query [2000s/partial]: application form filled
+2026-04-16 21:28:56,955 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:57,756 INFO   Query [2000s/partial]: official form completed
+2026-04-16 21:28:58,076 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:28:58,877 INFO   Query [2000s/partial]: registration form handwritten
+2026-04-16 21:28:59,302 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:29:00,104 INFO   Query [2000s/partial]: questionnaire filled
+2026-04-16 21:29:00,743 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:29:01,545 INFO   Query [2000s/partial]: printed form annotated handwritten
+2026-04-16 21:29:01,831 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:29:02,632 INFO   Query [2000s/partial]: typed letter signed
+2026-04-16 21:29:03,058 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:29:03,860 INFO 
+── 2000s / majority (quota=5) ──
+2026-04-16 21:29:03,861 INFO   Query [2000s/majority]: handwritten memorandum
+2026-04-16 21:29:04,210 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:29:05,012 INFO   Query [2000s/majority]: handwritten petition
+2026-04-16 21:29:05,475 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:29:06,277 INFO   Query [2000s/majority]: correspondence letter
+2026-04-16 21:29:06,719 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:29:07,520 INFO   Query [2000s/majority]: military record handwritten
+2026-04-16 21:29:07,818 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:29:08,620 INFO   Query [2000s/majority]: census schedule handwritten
+2026-04-16 21:29:08,919 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:29:09,722 INFO 
+── 2000s / minimal (quota=3) ──
+2026-04-16 21:29:09,722 INFO   Query [2000s/minimal]: official report signed
+2026-04-16 21:29:10,148 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:29:10,950 INFO   Query [2000s/minimal]: typed memorandum
+2026-04-16 21:29:11,397 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:29:12,199 INFO   Query [2000s/minimal]: government report signature
+2026-04-16 21:29:12,625 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:29:13,426 INFO   Query [2000s/minimal]: typewritten correspondence signed
+2026-04-16 21:29:13,868 WARNING   NARA search error: Expecting value: line 1 column 1 (char 0)
+2026-04-16 21:29:14,671 INFO 
+── Summary ─────────────────────────────────────────────────
+2026-04-16 21:29:14,671 INFO   pre1950s   partial    0/6
+2026-04-16 21:29:14,671 INFO   pre1950s   majority   0/6
+2026-04-16 21:29:14,671 INFO   pre1950s   high       0/4
+2026-04-16 21:29:14,671 INFO   1950s      partial    0/4
+2026-04-16 21:29:14,671 INFO   1950s      majority   0/4
+2026-04-16 21:29:14,671 INFO   1960s      partial    0/4
+2026-04-16 21:29:14,671 INFO   1960s      majority   0/2
+2026-04-16 21:29:14,671 INFO   1960s      high       0/2
+2026-04-16 21:29:14,671 INFO   1970s      partial    0/4
+2026-04-16 21:29:14,671 INFO   1970s      majority   0/4
+2026-04-16 21:29:14,672 INFO   1970s      high       0/3
+2026-04-16 21:29:14,672 INFO   1980s      partial    0/6
+2026-04-16 21:29:14,672 INFO   1980s      majority   0/6
+2026-04-16 21:29:14,672 INFO   1990s      partial    0/6
+2026-04-16 21:29:14,672 INFO   1990s      majority   0/6
+2026-04-16 21:29:14,672 INFO   1990s      minimal    0/3
+2026-04-16 21:29:14,672 INFO   2000s      partial    0/5
+2026-04-16 21:29:14,672 INFO   2000s      majority   0/5
+2026-04-16 21:29:14,672 INFO   2000s      minimal    0/3
+2026-04-16 21:29:14,672 INFO   Total collected: 0
+2026-04-16 21:29:14,672 INFO ────────────────────────────────────────────────────────────
+
+2026-04-16 21:33:19,299 INFO Loaded 596 existing hashes
+2026-04-16 21:33:19,299 INFO Output: /home/ubuntu/projects/ScanGap/data/wildscans_candidates/national_archives
+2026-04-16 21:33:19,299 INFO Loaded 596 existing hashes
+
+2026-04-16 21:33:19,299 INFO 
+── pre1950s / partial (quota=6) ──
+2026-04-16 21:33:19,299 INFO   Query [pre1950s/partial]: application form
+2026-04-16 21:33:24,521 INFO   + Saved [pre1950s/partial] nara_pre1950s_partial_5c4a2686bc69.jpg  (1/6, total=1)
+2026-04-16 21:33:25,702 INFO   + Saved [pre1950s/partial] nara_pre1950s_partial_03774d75e3b2.jpg  (2/6, total=2)
+2026-04-16 21:33:26,899 INFO   + Saved [pre1950s/partial] nara_pre1950s_partial_1d1405da8671.jpg  (3/6, total=3)
+2026-04-16 21:33:27,906 INFO   + Saved [pre1950s/partial] nara_pre1950s_partial_3f10275d5e00.jpg  (4/6, total=4)
+2026-04-16 21:33:29,044 INFO   + Saved [pre1950s/partial] nara_pre1950s_partial_04a9f43ab814.jpg  (5/6, total=5)
+2026-04-16 21:33:30,047 INFO   + Saved [pre1950s/partial] nara_pre1950s_partial_888b1064b72c.jpg  (6/6, total=6)
+2026-04-16 21:33:30,048 INFO 
+── pre1950s / majority (quota=6) ──
+2026-04-16 21:33:30,048 INFO   Query [pre1950s/majority]: handwritten petition
+2026-04-16 21:33:33,947 INFO   + Saved [pre1950s/majority] nara_pre1950s_majority_e7e4d047f261.jpg  (1/6, total=7)
+2026-04-16 21:33:35,271 INFO   + Saved [pre1950s/majority] nara_pre1950s_majority_1bc0454fa4f9.jpg  (2/6, total=8)
+2026-04-16 21:33:36,599 INFO   + Saved [pre1950s/majority] nara_pre1950s_majority_b877065bea22.jpg  (3/6, total=9)
+2026-04-16 21:33:37,983 INFO   + Saved [pre1950s/majority] nara_pre1950s_majority_0bb0d6a98a65.jpg  (4/6, total=10)
+2026-04-16 21:33:39,356 INFO   + Saved [pre1950s/majority] nara_pre1950s_majority_a79b53edc905.jpg  (5/6, total=11)
+2026-04-16 21:33:40,665 INFO   + Saved [pre1950s/majority] nara_pre1950s_majority_d275a3f58e05.jpg  (6/6, total=12)
+2026-04-16 21:33:40,666 INFO 
+── pre1950s / high (quota=4) ──
+2026-04-16 21:33:40,667 INFO   Query [pre1950s/high]: handwritten letter correspondence
+2026-04-16 21:33:44,581 INFO   + Saved [pre1950s/high] nara_pre1950s_high_a0cf56f26420.jpg  (1/4, total=13)
+2026-04-16 21:33:45,765 INFO   + Saved [pre1950s/high] nara_pre1950s_high_770a5544a2a4.jpg  (2/4, total=14)
+2026-04-16 21:33:46,959 INFO   + Saved [pre1950s/high] nara_pre1950s_high_e78cd5ebee3f.jpg  (3/4, total=15)
+2026-04-16 21:33:48,074 INFO   + Saved [pre1950s/high] nara_pre1950s_high_6b63bbcb5945.jpg  (4/4, total=16)
+2026-04-16 21:33:48,075 INFO 
+── 1950s / partial (quota=4) ──
+2026-04-16 21:33:48,075 INFO   Query [1950s/partial]: application form
+2026-04-16 21:33:58,737 INFO   + Saved [1950s/partial] nara_1950s_partial_e5d07a335a44.jpg  (1/4, total=17)
+2026-04-16 21:33:59,931 INFO   + Saved [1950s/partial] nara_1950s_partial_bdb2d44b298d.jpg  (2/4, total=18)
+2026-04-16 21:34:01,132 INFO   + Saved [1950s/partial] nara_1950s_partial_5b6789345b75.jpg  (3/4, total=19)
+2026-04-16 21:34:03,304 INFO   + Saved [1950s/partial] nara_1950s_partial_66fffbc49b10.jpg  (4/4, total=20)
+2026-04-16 21:34:03,305 INFO 
+── 1950s / majority (quota=4) ──
+2026-04-16 21:34:03,305 INFO   Query [1950s/majority]: handwritten petition
+2026-04-16 21:35:42,202 INFO   + Saved [1950s/majority] nara_1950s_majority_94c57484ce6d.jpg  (1/4, total=21)
+2026-04-16 21:35:43,171 INFO   + Saved [1950s/majority] nara_1950s_majority_80bfb182973f.jpg  (2/4, total=22)
+2026-04-16 21:35:44,033 INFO   + Saved [1950s/majority] nara_1950s_majority_2428b247ddef.jpg  (3/4, total=23)
+2026-04-16 21:35:44,786 INFO   + Saved [1950s/majority] nara_1950s_majority_a510bacaf916.jpg  (4/4, total=24)
+2026-04-16 21:35:44,787 INFO 
+── 1960s / partial (quota=4) ──
+2026-04-16 21:35:44,787 INFO   Query [1960s/partial]: application form
+2026-04-16 21:36:00,831 INFO   + Saved [1960s/partial] nara_1960s_partial_0a038f8720af.jpg  (1/4, total=25)
+2026-04-16 21:36:01,846 INFO   + Saved [1960s/partial] nara_1960s_partial_933e85bc8c84.jpg  (2/4, total=26)
+2026-04-16 21:36:02,825 INFO   + Saved [1960s/partial] nara_1960s_partial_65dd698f30b3.jpg  (3/4, total=27)
+2026-04-16 21:36:03,935 INFO   + Saved [1960s/partial] nara_1960s_partial_42bf86163f7f.jpg  (4/4, total=28)
+2026-04-16 21:36:03,936 INFO 
+── 1960s / majority (quota=2) ──
+2026-04-16 21:36:03,936 INFO   Query [1960s/majority]: handwritten petition
+2026-04-16 21:36:15,247 INFO   + Saved [1960s/majority] nara_1960s_majority_67ded924656b.jpg  (1/2, total=29)
+2026-04-16 21:36:16,095 INFO   + Saved [1960s/majority] nara_1960s_majority_3d010ae4aa95.jpg  (2/2, total=30)
+2026-04-16 21:36:16,096 INFO 
+── 1960s / high (quota=2) ──
+2026-04-16 21:36:16,096 INFO   Query [1960s/high]: handwritten letter correspondence
+2026-04-16 21:37:54,093 INFO   + Saved [1960s/high] nara_1960s_high_6aea8c47ec77.jpg  (1/2, total=31)
+2026-04-16 21:37:55,253 INFO   + Saved [1960s/high] nara_1960s_high_0f832d70256a.jpg  (2/2, total=32)
+2026-04-16 21:37:55,254 INFO 
+── 1970s / partial (quota=4) ──
+2026-04-16 21:37:55,254 INFO   Query [1970s/partial]: application form
+2026-04-16 21:38:25,899 INFO   + Saved [1970s/partial] nara_1970s_partial_b7d970601501.jpg  (1/4, total=33)
+2026-04-16 21:39:02,953 INFO   + Saved [1970s/partial] nara_1970s_partial_c4d54da03ef2.jpg  (2/4, total=34)
+2026-04-16 21:39:04,159 INFO   + Saved [1970s/partial] nara_1970s_partial_6b9a79b124ef.jpg  (3/4, total=35)
+2026-04-16 21:39:05,488 INFO   + Saved [1970s/partial] nara_1970s_partial_217361f96c90.jpg  (4/4, total=36)
+2026-04-16 21:39:05,490 INFO 
+── 1970s / majority (quota=4) ──
+2026-04-16 21:39:05,490 INFO   Query [1970s/majority]: handwritten petition
+2026-04-16 21:41:08,227 INFO   + Saved [1970s/majority] nara_1970s_majority_8a94e7d96fd3.jpg  (1/4, total=37)
+2026-04-16 21:41:09,077 INFO   + Saved [1970s/majority] nara_1970s_majority_686f82c8e7f1.jpg  (2/4, total=38)
+2026-04-16 21:41:09,954 INFO   + Saved [1970s/majority] nara_1970s_majority_d162fd5cf56f.jpg  (3/4, total=39)
+2026-04-16 21:41:10,723 INFO   + Saved [1970s/majority] nara_1970s_majority_aaaab3d33dd4.jpg  (4/4, total=40)
+2026-04-16 21:41:10,724 INFO 
+── 1970s / high (quota=3) ──
+2026-04-16 21:41:10,724 INFO   Query [1970s/high]: handwritten letter correspondence
+2026-04-16 21:41:21,038 INFO   + Saved [1970s/high] nara_1970s_high_ba352da8049c.jpg  (1/3, total=41)
+2026-04-16 21:41:22,121 INFO   + Saved [1970s/high] nara_1970s_high_1406ffc4ac5d.jpg  (2/3, total=42)
+2026-04-16 21:41:23,251 INFO   + Saved [1970s/high] nara_1970s_high_28a8ef525189.jpg  (3/3, total=43)
+2026-04-16 21:41:23,252 INFO 
+── 1980s / partial (quota=6) ──
+2026-04-16 21:41:23,252 INFO   Query [1980s/partial]: application form
+2026-04-16 21:41:47,643 INFO   + Saved [1980s/partial] nara_1980s_partial_a72d8b7e59d5.jpg  (1/6, total=44)
+2026-04-16 21:41:49,089 INFO   + Saved [1980s/partial] nara_1980s_partial_e60411c82050.jpg  (2/6, total=45)
+2026-04-16 21:41:50,177 INFO   + Saved [1980s/partial] nara_1980s_partial_54e592062470.jpg  (3/6, total=46)
+2026-04-16 21:41:51,201 INFO   + Saved [1980s/partial] nara_1980s_partial_f813c74963ca.jpg  (4/6, total=47)
+2026-04-16 21:41:52,449 INFO   + Saved [1980s/partial] nara_1980s_partial_2a4e8a06f1da.jpg  (5/6, total=48)
+2026-04-16 21:41:53,438 INFO   + Saved [1980s/partial] nara_1980s_partial_4ecdcf1e4efb.jpg  (6/6, total=49)
+2026-04-16 21:41:53,439 INFO 
+── 1980s / majority (quota=6) ──
+2026-04-16 21:41:53,439 INFO   Query [1980s/majority]: handwritten petition
+2026-04-16 21:42:18,643 INFO   + Saved [1980s/majority] nara_1980s_majority_839f0e479d08.jpg  (1/6, total=50)
+2026-04-16 21:42:19,406 INFO   + Saved [1980s/majority] nara_1980s_majority_43a11ccdf145.jpg  (2/6, total=51)
+2026-04-16 21:42:20,280 INFO   + Saved [1980s/majority] nara_1980s_majority_0a6b9625a083.jpg  (3/6, total=52)
+2026-04-16 21:42:21,396 INFO   + Saved [1980s/majority] nara_1980s_majority_259501895023.jpg  (4/6, total=53)
+2026-04-16 21:42:22,293 INFO   + Saved [1980s/majority] nara_1980s_majority_75aac26f6978.jpg  (5/6, total=54)
+2026-04-16 21:42:23,115 INFO   + Saved [1980s/majority] nara_1980s_majority_72adeaa1c409.jpg  (6/6, total=55)
+2026-04-16 21:42:23,116 INFO 
+── 1990s / partial (quota=6) ──
+2026-04-16 21:42:23,116 INFO   Query [1990s/partial]: application form
+2026-04-16 21:43:25,987 INFO   + Saved [1990s/partial] nara_1990s_partial_5aec3acdc3b8.jpg  (1/6, total=56)
+2026-04-16 21:43:27,124 INFO   + Saved [1990s/partial] nara_1990s_partial_bcab4261f0f8.jpg  (2/6, total=57)
+2026-04-16 21:43:28,224 INFO   + Saved [1990s/partial] nara_1990s_partial_87f52b2432bc.jpg  (3/6, total=58)
+2026-04-16 21:43:29,460 INFO   + Saved [1990s/partial] nara_1990s_partial_2e48c8ec566c.jpg  (4/6, total=59)
+2026-04-16 21:43:30,708 INFO   + Saved [1990s/partial] nara_1990s_partial_a400a8eb6dd2.jpg  (5/6, total=60)
+2026-04-16 21:43:31,947 INFO   + Saved [1990s/partial] nara_1990s_partial_16deef6709a7.jpg  (6/6, total=61)
+2026-04-16 21:43:31,948 INFO 
+── 1990s / majority (quota=6) ──
+2026-04-16 21:43:31,948 INFO   Query [1990s/majority]: handwritten petition
+2026-04-16 21:43:33,903 WARNING   NARA search error: 502 Server Error: Bad Gateway for url: https://catalog.archives.gov/proxy/records/search?q=handwritten+petition&resultTypes=digitalObject&dateRangeFrom=1990-01-01&dateRangeTo=1999-12-31&offset=0&rows=50
+2026-04-16 21:43:34,705 INFO   Query [1990s/majority]: correspondence letter
+2026-04-16 21:43:38,369 INFO   + Saved [1990s/majority] nara_1990s_majority_ab66c17e8816.jpg  (1/6, total=62)
+2026-04-16 21:43:39,384 INFO   + Saved [1990s/majority] nara_1990s_majority_cf87512b73c2.jpg  (2/6, total=63)
+2026-04-16 21:43:40,355 INFO   + Saved [1990s/majority] nara_1990s_majority_476889eb758f.jpg  (3/6, total=64)
+2026-04-16 21:43:41,245 INFO   + Saved [1990s/majority] nara_1990s_majority_f01961558ac9.jpg  (4/6, total=65)
+2026-04-16 21:43:42,226 INFO   + Saved [1990s/majority] nara_1990s_majority_7a96a60d22ea.jpg  (5/6, total=66)
+2026-04-16 21:43:43,146 INFO   + Saved [1990s/majority] nara_1990s_majority_a23608a5161d.jpg  (6/6, total=67)
+2026-04-16 21:43:43,147 INFO 
+── 1990s / minimal (quota=3) ──
+2026-04-16 21:43:43,147 INFO   Query [1990s/minimal]: official report signed
+2026-04-16 21:43:47,654 INFO   + Saved [1990s/minimal] nara_1990s_minimal_33680796ffe8.jpg  (1/3, total=68)
+2026-04-16 21:43:48,630 INFO   + Saved [1990s/minimal] nara_1990s_minimal_cf1b9da3f0e1.jpg  (2/3, total=69)
+2026-04-16 21:43:49,576 INFO   + Saved [1990s/minimal] nara_1990s_minimal_6aeecb74f7bf.jpg  (3/3, total=70)
+2026-04-16 21:43:49,578 INFO 
+── 2000s / partial (quota=5) ──
+2026-04-16 21:43:49,578 INFO   Query [2000s/partial]: application form
+2026-04-16 21:45:32,947 INFO   + Saved [2000s/partial] nara_2000s_partial_7b07e7ad48a5.jpg  (1/5, total=71)
+2026-04-16 21:46:06,628 INFO   + Saved [2000s/partial] nara_2000s_partial_7609821473cb.jpg  (2/5, total=72)
+2026-04-16 21:46:07,780 INFO   + Saved [2000s/partial] nara_2000s_partial_fa143339d52c.jpg  (3/5, total=73)
+2026-04-16 21:46:08,888 INFO   + Saved [2000s/partial] nara_2000s_partial_c102619e69e3.jpg  (4/5, total=74)
+2026-04-16 21:46:10,155 INFO   + Saved [2000s/partial] nara_2000s_partial_e19134828422.jpg  (5/5, total=75)
+2026-04-16 21:46:10,156 INFO 
+── 2000s / majority (quota=5) ──
+2026-04-16 21:46:10,156 INFO   Query [2000s/majority]: handwritten petition
+2026-04-16 21:47:33,367 INFO   + Saved [2000s/majority] nara_2000s_majority_4682c7f9d69c.jpg  (1/5, total=76)
+2026-04-16 21:47:35,031 INFO   + Saved [2000s/majority] nara_2000s_majority_502b16c902dd.jpg  (2/5, total=77)
+2026-04-16 21:47:35,889 INFO   + Saved [2000s/majority] nara_2000s_majority_1e3aad8cbde8.jpg  (3/5, total=78)
+2026-04-16 21:47:36,774 INFO   + Saved [2000s/majority] nara_2000s_majority_7355433f8a95.jpg  (4/5, total=79)
+2026-04-16 21:47:37,578 INFO   + Saved [2000s/majority] nara_2000s_majority_37404f6d41be.jpg  (5/5, total=80)
+2026-04-16 21:47:37,579 INFO 
+── 2000s / minimal (quota=3) ──
+2026-04-16 21:47:37,579 INFO   Query [2000s/minimal]: official report signed
+2026-04-16 21:47:44,813 INFO   + Saved [2000s/minimal] nara_2000s_minimal_8084bc1d590a.jpg  (1/3, total=81)
+2026-04-16 21:47:45,900 INFO   + Saved [2000s/minimal] nara_2000s_minimal_18c875621194.jpg  (2/3, total=82)
+2026-04-16 21:47:46,900 INFO   + Saved [2000s/minimal] nara_2000s_minimal_401a117da6fa.jpg  (3/3, total=83)
+2026-04-16 21:47:46,901 INFO 
+── Summary ─────────────────────────────────────────────────
+2026-04-16 21:47:46,901 INFO   pre1950s   partial    DONE
+2026-04-16 21:47:46,902 INFO   pre1950s   majority   DONE
+2026-04-16 21:47:46,902 INFO   pre1950s   high       DONE
+2026-04-16 21:47:46,902 INFO   1950s      partial    DONE
+2026-04-16 21:47:46,902 INFO   1950s      majority   DONE
+2026-04-16 21:47:46,902 INFO   1960s      partial    DONE
+2026-04-16 21:47:46,902 INFO   1960s      majority   DONE
+2026-04-16 21:47:46,902 INFO   1960s      high       DONE
+2026-04-16 21:47:46,902 INFO   1970s      partial    DONE
+2026-04-16 21:47:46,902 INFO   1970s      majority   DONE
+2026-04-16 21:47:46,902 INFO   1970s      high       DONE
+2026-04-16 21:47:46,902 INFO   1980s      partial    DONE
+2026-04-16 21:47:46,902 INFO   1980s      majority   DONE
+2026-04-16 21:47:46,903 INFO   1990s      partial    DONE
+2026-04-16 21:47:46,903 INFO   1990s      majority   DONE
+2026-04-16 21:47:46,903 INFO   1990s      minimal    DONE
+2026-04-16 21:47:46,903 INFO   2000s      partial    DONE
+2026-04-16 21:47:46,903 INFO   2000s      majority   DONE
+2026-04-16 21:47:46,903 INFO   2000s      minimal    DONE
+2026-04-16 21:47:46,903 INFO   Total collected: 83
+2026-04-16 21:47:46,903 INFO ────────────────────────────────────────────────────────────
+
+2026-04-16 22:06:48,690 INFO Loaded 596 existing hashes
+2026-04-16 22:06:48,690 INFO Output: /home/ubuntu/projects/ScanGap/data/wildscans_candidates/national_archives
+2026-04-16 22:06:48,690 INFO Quota: 100 per decade
+
+2026-04-16 22:06:48,690 INFO 
+── pre1950s (1900–1949) ──
+2026-04-16 22:06:48,690 INFO   [pre1950s] query: letter correspondence
+2026-04-16 22:06:52,519 INFO   + [pre1950s] nara_pre1950s_ab66c17e8816.jpg  (1/100)
+2026-04-16 22:06:53,511 INFO   + [pre1950s] nara_pre1950s_cf87512b73c2.jpg  (2/100)
+2026-04-16 22:07:12,726 INFO   + [pre1950s] nara_pre1950s_476889eb758f.jpg  (3/100)
+2026-04-16 22:07:13,609 INFO   + [pre1950s] nara_pre1950s_f01961558ac9.jpg  (4/100)
+2026-04-16 22:07:14,595 INFO   + [pre1950s] nara_pre1950s_7a96a60d22ea.jpg  (5/100)
+2026-04-16 22:07:15,597 INFO   + [pre1950s] nara_pre1950s_a23608a5161d.jpg  (6/100)
+2026-04-16 22:07:16,557 INFO   + [pre1950s] nara_pre1950s_939399dbe63a.jpg  (7/100)
+2026-04-16 22:07:17,520 INFO   + [pre1950s] nara_pre1950s_1f3e1b3953fa.jpg  (8/100)
+2026-04-16 22:07:18,554 INFO   + [pre1950s] nara_pre1950s_1134edf8ebc8.jpg  (9/100)
+2026-04-16 22:07:19,586 INFO   + [pre1950s] nara_pre1950s_4ca5234a9658.jpg  (10/100)
+2026-04-16 22:07:20,667 INFO   + [pre1950s] nara_pre1950s_6d69ad750104.jpg  (11/100)
+2026-04-16 22:07:21,647 INFO   + [pre1950s] nara_pre1950s_02d199d5e296.jpg  (12/100)
+2026-04-16 22:07:22,636 INFO   + [pre1950s] nara_pre1950s_b8064b770c51.jpg  (13/100)
+2026-04-16 22:07:23,671 INFO   + [pre1950s] nara_pre1950s_3aba92cc7e0f.jpg  (14/100)
+2026-04-16 22:07:24,635 INFO   + [pre1950s] nara_pre1950s_1f3f7d0c85ad.jpg  (15/100)
+2026-04-16 22:07:25,617 INFO   + [pre1950s] nara_pre1950s_6a65fd6a0f4c.jpg  (16/100)
+2026-04-16 22:07:26,629 INFO   + [pre1950s] nara_pre1950s_443eeb6fc871.jpg  (17/100)
+2026-04-16 22:07:27,610 INFO   + [pre1950s] nara_pre1950s_ca1f353db211.jpg  (18/100)
+2026-04-16 22:07:28,711 INFO   + [pre1950s] nara_pre1950s_8318ca89c5a3.jpg  (19/100)
+2026-04-16 22:07:29,916 INFO   + [pre1950s] nara_pre1950s_e38722bda2c9.jpg  (20/100)
+2026-04-16 22:07:46,185 INFO   + [pre1950s] nara_pre1950s_4290bdf9e69f.jpg  (21/100)
+2026-04-16 22:07:47,198 INFO   + [pre1950s] nara_pre1950s_908de27e1a91.jpg  (22/100)
+2026-04-16 22:07:48,167 INFO   + [pre1950s] nara_pre1950s_79a072b25817.jpg  (23/100)
+2026-04-16 22:07:50,173 INFO   + [pre1950s] nara_pre1950s_dd5ff4e4de33.jpg  (24/100)
+2026-04-16 22:07:51,197 INFO   + [pre1950s] nara_pre1950s_3640417dfc22.jpg  (25/100)
+2026-04-16 22:07:52,177 INFO   + [pre1950s] nara_pre1950s_114776f976a1.jpg  (26/100)
+2026-04-16 22:07:53,188 INFO   + [pre1950s] nara_pre1950s_bef56cc3f467.jpg  (27/100)
+2026-04-16 22:07:54,143 INFO   + [pre1950s] nara_pre1950s_dce1f754a32d.jpg  (28/100)
+2026-04-16 22:07:55,145 INFO   + [pre1950s] nara_pre1950s_617f5d97068a.jpg  (29/100)
+2026-04-16 22:07:56,178 INFO   + [pre1950s] nara_pre1950s_43821812ca38.jpg  (30/100)
+2026-04-16 22:07:58,303 INFO   + [pre1950s] nara_pre1950s_381a44d3f4f0.jpg  (31/100)
+2026-04-16 22:07:59,306 INFO   + [pre1950s] nara_pre1950s_8e7a1777fa71.jpg  (32/100)
+2026-04-16 22:08:00,254 INFO   + [pre1950s] nara_pre1950s_8b8149a2ac0f.jpg  (33/100)
+2026-04-16 22:08:11,896 INFO   + [pre1950s] nara_pre1950s_0c978c2ecd85.jpg  (34/100)
+2026-04-16 22:08:12,922 INFO   + [pre1950s] nara_pre1950s_31f311586c6c.jpg  (35/100)
+2026-04-16 22:08:13,935 INFO   + [pre1950s] nara_pre1950s_10ae78f7e95e.jpg  (36/100)
+2026-04-16 22:08:14,906 INFO   + [pre1950s] nara_pre1950s_d13d0db0d821.jpg  (37/100)
+2026-04-16 22:08:15,869 INFO   + [pre1950s] nara_pre1950s_b6f1a9680c44.jpg  (38/100)
+2026-04-16 22:08:16,841 INFO   + [pre1950s] nara_pre1950s_e5c29a74e97e.jpg  (39/100)
+2026-04-16 22:08:20,730 INFO   + [pre1950s] nara_pre1950s_9c2b51dfddc7.jpg  (40/100)
+2026-04-16 22:08:21,730 INFO   + [pre1950s] nara_pre1950s_64c1fe563b93.jpg  (41/100)
+2026-04-16 22:08:23,687 INFO   + [pre1950s] nara_pre1950s_f42f4278b40b.jpg  (42/100)
+2026-04-16 22:08:24,676 INFO   + [pre1950s] nara_pre1950s_ed88cba274bb.jpg  (43/100)
+2026-04-16 22:08:25,689 INFO   + [pre1950s] nara_pre1950s_a30afc98831a.jpg  (44/100)
+2026-04-16 22:08:26,822 INFO   + [pre1950s] nara_pre1950s_6a978d9e780a.jpg  (45/100)
+2026-04-16 22:08:28,905 INFO   + [pre1950s] nara_pre1950s_377ba170948a.jpg  (46/100)
+2026-04-16 22:08:38,447 INFO   + [pre1950s] nara_pre1950s_7b4714800e93.jpg  (47/100)
+2026-04-16 22:08:40,269 INFO   + [pre1950s] nara_pre1950s_81dcd7e2208e.jpg  (48/100)
+2026-04-16 22:08:42,259 INFO   + [pre1950s] nara_pre1950s_77d4996153aa.jpg  (49/100)
+2026-04-16 22:08:43,335 INFO   + [pre1950s] nara_pre1950s_6234e9432ebd.jpg  (50/100)
+2026-04-16 22:08:46,344 INFO   + [pre1950s] nara_pre1950s_318eb0c8965f.jpg  (51/100)
+2026-04-16 22:08:47,309 INFO   + [pre1950s] nara_pre1950s_18c31faa001c.jpg  (52/100)
+2026-04-16 22:08:48,280 INFO   + [pre1950s] nara_pre1950s_ecf64945ce0b.jpg  (53/100)
+2026-04-16 22:08:49,265 INFO   + [pre1950s] nara_pre1950s_7128b305045f.jpg  (54/100)
+2026-04-16 22:08:52,213 INFO   + [pre1950s] nara_pre1950s_876349af169d.jpg  (55/100)
+2026-04-16 22:09:03,785 INFO   + [pre1950s] nara_pre1950s_3fc56600ed20.jpg  (56/100)
+2026-04-16 22:09:05,997 INFO   + [pre1950s] nara_pre1950s_bc7a3f6f1915.jpg  (57/100)
+2026-04-16 22:09:06,987 INFO   + [pre1950s] nara_pre1950s_e49207377af2.jpg  (58/100)
+2026-04-16 22:09:09,314 INFO   + [pre1950s] nara_pre1950s_47d690dc3684.jpg  (59/100)
+2026-04-16 22:09:22,441 INFO   + [pre1950s] nara_pre1950s_baca4ca2f0ab.jpg  (60/100)
+2026-04-16 22:09:23,408 INFO   + [pre1950s] nara_pre1950s_3cf3df320878.jpg  (61/100)
+2026-04-16 22:09:24,387 INFO   + [pre1950s] nara_pre1950s_9f2e600ec686.jpg  (62/100)
+2026-04-16 22:09:25,379 INFO   + [pre1950s] nara_pre1950s_e7a5b91049bb.jpg  (63/100)
+2026-04-16 22:09:26,374 INFO   + [pre1950s] nara_pre1950s_842931ada367.jpg  (64/100)
+2026-04-16 22:09:27,404 INFO   + [pre1950s] nara_pre1950s_e7afe95fbf44.jpg  (65/100)
+2026-04-16 22:09:30,585 INFO   + [pre1950s] nara_pre1950s_8881251353f1.jpg  (66/100)
+2026-04-16 22:09:31,626 INFO   + [pre1950s] nara_pre1950s_d9df29783c2e.jpg  (67/100)
+2026-04-16 22:09:33,626 INFO   + [pre1950s] nara_pre1950s_7ab839ce6f15.jpg  (68/100)
+2026-04-16 22:09:34,756 INFO   + [pre1950s] nara_pre1950s_ab76edd1c25e.jpg  (69/100)
+2026-04-16 22:09:35,746 INFO   + [pre1950s] nara_pre1950s_1ec08bab4c52.jpg  (70/100)
+2026-04-16 22:09:36,733 INFO   + [pre1950s] nara_pre1950s_888ed05fb6aa.jpg  (71/100)
+2026-04-16 22:09:37,751 INFO   + [pre1950s] nara_pre1950s_12305aaec5e9.jpg  (72/100)
+2026-04-16 22:09:38,759 INFO   + [pre1950s] nara_pre1950s_a8ad738eb606.jpg  (73/100)

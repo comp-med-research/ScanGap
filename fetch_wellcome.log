@@ -1,0 +1,37 @@
+2026-04-16 22:17:15,642 INFO Loaded 596 existing hashes
+2026-04-16 22:17:15,642 INFO Output: /home/ubuntu/projects/ScanGap/data/wildscans_candidates/wellcome
+2026-04-16 22:17:15,643 INFO Quota: 100 per decade
+
+2026-04-16 22:17:15,643 INFO 
+── pre1950s (1900–1949) ──
+2026-04-16 22:17:15,643 INFO   [pre1950s] query: handwritten letter
+2026-04-16 22:18:52,919 INFO   + [pre1950s] wellcome_pre1950s_ab2f740c7146.jpg  (1/100)
+2026-04-16 22:18:54,242 INFO   + [pre1950s] wellcome_pre1950s_b53739296e4d.jpg  (2/100)
+2026-04-16 22:18:55,531 INFO   + [pre1950s] wellcome_pre1950s_a3853a12a1df.jpg  (3/100)
+2026-04-16 22:18:56,817 INFO   + [pre1950s] wellcome_pre1950s_34cd009bd0a7.jpg  (4/100)
+2026-04-16 22:18:57,998 INFO   + [pre1950s] wellcome_pre1950s_51618e3534fd.jpg  (5/100)
+2026-04-16 22:18:59,246 INFO   + [pre1950s] wellcome_pre1950s_04a0678bd3a2.jpg  (6/100)
+2026-04-16 22:19:00,339 INFO   + [pre1950s] wellcome_pre1950s_dfe4a1e3d4e7.jpg  (7/100)
+2026-04-16 22:19:01,293 INFO   + [pre1950s] wellcome_pre1950s_4048227115a0.jpg  (8/100)
+2026-04-16 22:19:02,669 INFO   + [pre1950s] wellcome_pre1950s_8b37ce27bd23.jpg  (9/100)
+2026-04-16 22:19:03,272 INFO   + [pre1950s] wellcome_pre1950s_3c8dd14d899a.jpg  (10/100)
+2026-04-16 22:19:03,996 INFO   + [pre1950s] wellcome_pre1950s_3b757df6b2bc.jpg  (11/100)
+2026-04-16 22:19:04,687 INFO   + [pre1950s] wellcome_pre1950s_04705f94857d.jpg  (12/100)
+2026-04-16 22:19:05,328 INFO   + [pre1950s] wellcome_pre1950s_60675aa199f3.jpg  (13/100)
+2026-04-16 22:19:07,264 INFO   + [pre1950s] wellcome_pre1950s_0d031cc2f259.jpg  (14/100)
+2026-04-16 22:19:08,282 INFO   + [pre1950s] wellcome_pre1950s_c215765c9e24.jpg  (15/100)
+2026-04-16 22:19:09,146 INFO   + [pre1950s] wellcome_pre1950s_2645fd742e10.jpg  (16/100)
+2026-04-16 22:19:09,386 INFO   + [pre1950s] wellcome_pre1950s_6e20bd324c46.jpg  (17/100)
+2026-04-16 22:19:09,656 INFO   + [pre1950s] wellcome_pre1950s_0b1810df7b09.jpg  (18/100)
+2026-04-16 22:19:09,884 INFO   + [pre1950s] wellcome_pre1950s_24def112687c.jpg  (19/100)
+2026-04-16 22:19:10,194 INFO   + [pre1950s] wellcome_pre1950s_7fee1be72d7f.jpg  (20/100)
+2026-04-16 22:19:11,583 INFO   + [pre1950s] wellcome_pre1950s_fc75e75c9347.jpg  (21/100)
+2026-04-16 22:19:11,859 INFO   + [pre1950s] wellcome_pre1950s_390bc95e342c.jpg  (22/100)
+2026-04-16 22:19:12,069 INFO   + [pre1950s] wellcome_pre1950s_64105d2a6163.jpg  (23/100)
+2026-04-16 22:19:12,393 INFO   + [pre1950s] wellcome_pre1950s_7e7f9d173e61.jpg  (24/100)
+2026-04-16 22:19:13,302 INFO   + [pre1950s] wellcome_pre1950s_385e22ef8a10.jpg  (25/100)
+2026-04-16 22:19:13,561 INFO   + [pre1950s] wellcome_pre1950s_819bff406c80.jpg  (26/100)
+2026-04-16 22:19:13,814 INFO   + [pre1950s] wellcome_pre1950s_73fb705826b8.jpg  (27/100)
+2026-04-16 22:19:31,288 INFO   + [pre1950s] wellcome_pre1950s_116654d832f4.jpg  (28/100)
+2026-04-16 22:20:31,624 INFO   + [pre1950s] wellcome_pre1950s_96be3871e845.jpg  (29/100)
+2026-04-16 22:20:31,855 INFO   + [pre1950s] wellcome_pre1950s_61cf490e2b0a.jpg  (30/100)

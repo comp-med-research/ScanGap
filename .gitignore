@@ -3,6 +3,7 @@ __pycache__/
 *.egg-info/
 .env
 .envrc
+.venv/
 
 # Large data files — add explicitly if you want to track small samples
 data/wildscans/*.png
@@ -11,7 +12,10 @@ data/wildscans/*.pdf
 data/funsd/
 data/omnidocbench/
 data/real5/
+data/
 
 # Results can be large
 results/**/*.json
 !results/**/.gitkeep
+
+ml_backend/

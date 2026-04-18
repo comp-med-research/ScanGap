@@ -1,0 +1,27 @@
+# Core
+editdistance
+pandas
+Pillow
+
+# Pipeline models
+docling>=2.88.0
+paddlepaddle
+paddleocr
+pytesseract          # also requires: sudo apt install tesseract-ocr tesseract-ocr-eng
+easyocr
+python-doctr[torch,viz]
+
+# API-based models (set OPENAI_API_KEY / GOOGLE_API_KEY)
+openai
+google-genai
+
+# HuggingFace local models
+transformers>=4.45.0
+accelerate
+torch
+torchvision
+timm
+einops
+
+# MinerU
+magic-pdf[full]
