@@ -9,325 +9,308 @@
 
 
   <!-- ═══════════════════════════════════════════════════════════════════════ -->
-  <!--  PAGE-LEVEL LABELS                                                      -->
+  <!--  PAGE-LEVEL LABELS  (collapsible — set once per page)                  -->
   <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-  <Header value="PAGE-LEVEL LABELS"/>
+  <View collapsible="true" collapsed="true">
+    <Header value="PAGE-LEVEL LABELS"/>
 
-  <!-- Page Type -->
-  <Header value="Page Type"/>
-  <Choices name="page_type" toName="image" choice="single">
-    <Choice value="form"/>
-    <Choice value="letter"/>
-    <Choice value="note"/>
-    <Choice value="invoice"/>
-    <Choice value="budget"/>
-    <Choice value="legal_document"/>
-    <Choice value="other"/>
-  </Choices>
+    <Header value="Page Type"/>
+    <Choices name="page_type" toName="image" choice="single">
+      <Choice value="form"/>
+      <Choice value="letter"/>
+      <Choice value="note"/>
+      <Choice value="invoice"/>
+      <Choice value="budget"/>
+      <Choice value="legal_document"/>
+      <Choice value="other"/>
+    </Choices>
 
-  <!-- Page Layout -->
-  <Header value="Page Layout"/>
-  <Choices name="page_layout" toName="image" choice="single" showInLine="true">
-    <Choice value="single_column"/>
-    <Choice value="two_column"/>
-    <Choice value="multi_column"/>
-    <Choice value="complex"/>
-    <Choice value="unknown"/>
-  </Choices>
+    <Header value="Page Layout"/>
+    <Choices name="page_layout" toName="image" choice="single" showInLine="true">
+      <Choice value="single_column"/>
+      <Choice value="two_column"/>
+      <Choice value="multi_column"/>
+      <Choice value="complex"/>
+      <Choice value="unknown"/>
+    </Choices>
 
-  <!-- Page Integrity -->
-  <Header value="Page Integrity"/>
-  <Choices name="page_integrity" toName="image" choice="single" showInLine="true">
-    <Choice value="clean"/>
-    <Choice value="worn"/>
-    <Choice value="damaged"/>
-    <Choice value="other"/>
-    <Choice value="unknown"/>
-  </Choices>
+    <Header value="Page Integrity"/>
+    <Choices name="page_integrity" toName="image" choice="single" showInLine="true">
+      <Choice value="clean"/>
+      <Choice value="worn"/>
+      <Choice value="damaged"/>
+      <Choice value="other"/>
+      <Choice value="unknown"/>
+    </Choices>
 
-  <!-- Scan Quality -->
-  <Header value="Scan Quality"/>
-  <Choices name="scan_quality" toName="image" choice="single" showInLine="true">
-    <Choice value="good"/>
-    <Choice value="degraded"/>
-    <Choice value="unknown"/>
-  </Choices>
+    <Header value="Scan Quality"/>
+    <Choices name="scan_quality" toName="image" choice="single" showInLine="true">
+      <Choice value="good"/>
+      <Choice value="degraded"/>
+      <Choice value="unknown"/>
+    </Choices>
 
-  <!-- Page Rotation -->
-  <Header value="Page Rotation"/>
-  <Choices name="page_orientation" toName="image" choice="single" showInLine="true">
-    <Choice value="none"/>
-    <Choice value="rotated_1_45"/>
-    <Choice value="rotated_46_90"/>
-    <Choice value="rotated_91_180"/>
-    <Choice value="rotated_181_270"/>
-    <Choice value="unknown"/>
-  </Choices>
+    <Header value="Page Rotation"/>
+    <Choices name="page_orientation" toName="image" choice="single" showInLine="true">
+      <Choice value="none"/>
+      <Choice value="rotated_1_45"/>
+      <Choice value="rotated_46_90"/>
+      <Choice value="rotated_91_180"/>
+      <Choice value="rotated_neg1_45"/>
+      <Choice value="rotated_neg46_90"/>
+      <Choice value="rotated_neg91_180"/>
+      <Choice value="unknown"/>
+    </Choices>
 
-  <!-- Decade Written -->
-  <Header value="Decade Written"/>
-  <Choices name="decade_written" toName="image" choice="single" showInLine="true">
-    <Choice value="pre_1950"/>
-    <Choice value="1950s"/>
-    <Choice value="1960s"/>
-    <Choice value="1970s"/>
-    <Choice value="1980s"/>
-    <Choice value="1990s"/>
-    <Choice value="2000s"/>
-    <Choice value="2010s"/>
-    <Choice value="2020s"/>
-    <Choice value="unknown"/>
-  </Choices>
+    <Header value="Decade Written"/>
+    <Choices name="decade_written" toName="image" choice="single" showInLine="true">
+      <Choice value="pre_1950"/>
+      <Choice value="1950s"/>
+      <Choice value="1960s"/>
+      <Choice value="1970s"/>
+      <Choice value="1980s"/>
+      <Choice value="1990s"/>
+      <Choice value="2000s"/>
+      <Choice value="2010s"/>
+      <Choice value="2020s"/>
+      <Choice value="unknown"/>
+    </Choices>
 
-  <!-- Watermark -->
-  <Header value="Watermark"/>
-  <Choices name="watermark" toName="image" choice="single" showInLine="true">
-    <Choice value="true"/>
-    <Choice value="false"/>
-  </Choices>
+    <Header value="Watermark"/>
+    <Choices name="watermark" toName="image" choice="single" showInLine="true">
+      <Choice value="true"/>
+      <Choice value="false"/>
+    </Choices>
 
-  <!-- Coloured Background -->
-  <Header value="Coloured Background"/>
-  <Choices name="coloured_background" toName="image" choice="single" showInLine="true">
-    <Choice value="true"/>
-    <Choice value="false"/>
-  </Choices>
+    <Header value="Coloured Background"/>
+    <Choices name="coloured_background" toName="image" choice="single" showInLine="true">
+      <Choice value="true"/>
+      <Choice value="false"/>
+    </Choices>
 
-  <!-- Handwritten Text Proportion -->
-  <Header value="Handwritten Text Proportion (approximate % of text content that is handwritten)"/>
-  <Choices name="handwritten_proportion" toName="image" choice="single" showInLine="true">
-    <Choice value="none_0"/>
-    <Choice value="minimal_1_25"/>
-    <Choice value="partial_26_50"/>
-    <Choice value="majority_51_75"/>
-    <Choice value="high_76_100"/>
-    <Choice value="unknown"/>
-  </Choices>
+    <Header value="Handwritten Text Proportion (approximate % of text content that is handwritten)"/>
+    <Choices name="handwritten_proportion" toName="image" choice="single" showInLine="true">
+      <Choice value="none_0"/>
+      <Choice value="minimal_1_25"/>
+      <Choice value="partial_26_50"/>
+      <Choice value="majority_51_75"/>
+      <Choice value="high_76_100"/>
+      <Choice value="unknown"/>
+    </Choices>
 
-  <!-- Page Artifacts -->
-  <Header value="Page Artifacts"/>
-  <Choices name="page_artifacts" toName="image" choice="multiple" showInLine="true">
-    <Choice value="skew"/>
-    <Choice value="scan_lines_or_band"/>
-    <Choice value="low_contrast"/>
-    <Choice value="noise_grain"/>
-    <Choice value="overprint_or_overlay"/>
-    <Choice value="other"/>
-  </Choices>
+    <Header value="Page Artifacts"/>
+    <Choices name="page_artifacts" toName="image" choice="multiple" showInLine="true">
+      <Choice value="skew"/>
+      <Choice value="warping"/>
+      <Choice value="scan_lines_or_band"/>
+      <Choice value="low_contrast"/>
+      <Choice value="blurry"/>
+      <Choice value="noise_grain"/>
+      <Choice value="overprint_or_overlay"/>
+      <Choice value="show_through"/>
+      <Choice value="other"/>
+    </Choices>
+  </View>
 
 
   <!-- ═══════════════════════════════════════════════════════════════════════ -->
-  <!--  REGION DRAWING + TRANSCRIPTION                                         -->
+  <!--  REGION-LEVEL LABELS  (collapsible — open by default)                  -->
   <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-  <Header value="REGION-LEVEL LABELS"/>
-  <Header value="Draw a bounding box around each region, then fill in its attributes below."/>
+  <View collapsible="true" collapsed="false">
+    <Header value="REGION-LEVEL LABELS"/>
 
-  <RectangleLabels name="bbox" toName="image" strokeWidth="2">
-    <Label value="text_region" background="#4A90D9"/>
-    <Label value="image_text"  background="#7B68EE"/>
-    <Label value="table"       background="#E67E22"/>
-    <Label value="form"        background="#27AE60"/>
-    <Label value="symbol"      background="#E74C3C"/>
-    <Label value="stamp"       background="#8E44AD"/>
-    <Label value="image"       background="#95A5A6"/>
-    <Label value="unknown"     background="#BDC3C7"/>
-  </RectangleLabels>
+    <Header value="Draw a bounding box around each region, then fill in its attributes below."/>
 
-  <!-- Transcription — shown for all regions except non_text_image -->
-  <TextArea name="transcription" toName="image"
-            editable="true" perRegion="true"
-            placeholder="Transcribe the exact text in this region"
-            rows="4"/>
+    <RectangleLabels name="bbox" toName="image" strokeWidth="2">
+      <Label value="text_region" background="#4A90D9"/>
+      <Label value="image_text"  background="#7B68EE"/>
+      <Label value="table"       background="#E67E22"/>
+      <Label value="form"        background="#27AE60"/>
+      <Label value="symbol"      background="#E74C3C"/>
+      <Label value="stamp"       background="#8E44AD"/>
+      <Label value="image"       background="#95A5A6"/>
+      <Label value="unknown"     background="#BDC3C7"/>
+    </RectangleLabels>
 
+    <TextArea name="transcription" toName="image"
+              editable="true" perRegion="true"
+              placeholder="Transcribe the exact text in this region"
+              rows="4"/>
 
-  <!-- ═══════════════════════════════════════════════════════════════════════ -->
-  <!--  REGION-LEVEL ATTRIBUTES (per region)                                  -->
-  <!-- ═══════════════════════════════════════════════════════════════════════ -->
+    <Header value="Reading Order"/>
+    <Number name="reading_order" toName="image" perRegion="true"
+            placeholder="Reading order position (1, 2, 3 ...)"/>
 
-  <!-- Reading Order -->
-  <Header value="Reading Order"/>
-  <Number name="reading_order" toName="image" perRegion="true"
-          placeholder="Reading order position (1, 2, 3 ...)"/>
+    <Header value="Region Rotation"/>
+    <Choices name="region_rotation" toName="image" choice="single"
+             perRegion="true" showInLine="true">
+      <Choice value="none"/>
+      <Choice value="rotated_1_45"/>
+      <Choice value="rotated_46_90"/>
+      <Choice value="rotated_91_180"/>
+      <Choice value="rotated_neg1_45"/>
+      <Choice value="rotated_neg46_90"/>
+      <Choice value="rotated_neg91_180"/>
+      <Choice value="unknown"/>
+    </Choices>
 
-  <!-- Region Rotation -->
-  <Header value="Region Rotation"/>
-  <Choices name="region_rotation" toName="image" choice="single"
-           perRegion="true" showInLine="true">
-    <Choice value="none"/>
-    <Choice value="rotated_1_45"/>
-    <Choice value="rotated_46_90"/>
-    <Choice value="rotated_91_180"/>
-    <Choice value="rotated_181_270"/>
-    <Choice value="unknown"/>
-  </Choices>
+    <Header value="Text Type"/>
+    <Choices name="text_type" toName="image" choice="single"
+             perRegion="true" showInLine="false">
+      <Choice value="printed_plain"/>
+      <Choice value="printed_typewritten"/>
+      <Choice value="printed_graphic_logo"/>
+      <Choice value="printed_stamp"/>
+      <Choice value="handwritten_cursive"/>
+      <Choice value="handwritten_print"/>
+      <Choice value="handwritten_other"/>
+      <Choice value="signature"/>
+      <Choice value="mixed_print_handwritten"/>
+      <Choice value="unknown"/>
+    </Choices>
 
-  <!-- Text Type -->
-  <Header value="Text Type"/>
-  <Choices name="text_type" toName="image" choice="single"
-           perRegion="true" showInLine="false">
-    <Choice value="printed_plain"/>
-    <Choice value="printed_typewritten"/>
-    <Choice value="printed_graphic_logo"/>
-    <Choice value="printed_stamp"/>
-    <Choice value="handwritten_general"/>
-    <Choice value="signature"/>
-    <Choice value="mixed_print_handwritten"/>
-    <Choice value="unknown"/>
-  </Choices>
+    <Header value="Handwriting Slant"/>
+    <Choices name="handwriting_slant" toName="image" choice="single"
+             perRegion="true" showInLine="true">
+      <Choice value="upright"/>
+      <Choice value="slanted"/>
+      <Choice value="unknown"/>
+    </Choices>
 
-  <!-- Legibility -->
-  <Header value="Legibility"/>
-  <Choices name="legibility" toName="image" choice="single"
-           perRegion="true" showInLine="true">
-    <Choice value="clear"/>
-    <Choice value="faint"/>
-    <Choice value="partially_obscured"/>
-    <Choice value="completely_obscured"/>
-  </Choices>
+    <Header value="Legibility"/>
+    <Choices name="legibility" toName="image" choice="single"
+             perRegion="true" showInLine="true">
+      <Choice value="clear"/>
+      <Choice value="faint"/>
+      <Choice value="partially_obscured"/>
+      <Choice value="completely_obscured"/>
+    </Choices>
 
-  <!-- Layout Complexity -->
-  <Header value="Layout Complexity"/>
-  <Choices name="layout_complexity" toName="image" choice="single"
-           perRegion="true" showInLine="true">
-    <Choice value="simple"/>
-    <Choice value="complex"/>
-    <Choice value="not_applicable"/>
-  </Choices>
-
-  <!-- Region Artifacts -->
-  <Header value="Region Artifacts"/>
-  <Choices name="region_artifacts" toName="image" choice="multiple"
-           perRegion="true" showInLine="true">
-    <Choice value="skew"/>
-    <Choice value="scan_lines_or_band"/>
-    <Choice value="low_contrast"/>
-    <Choice value="noise_grain"/>
-    <Choice value="overprint_or_overlay"/>
-    <Choice value="other"/>
-  </Choices>
+    <Header value="Region Artifacts"/>
+    <Choices name="region_artifacts" toName="image" choice="multiple"
+             perRegion="true" showInLine="true">
+      <Choice value="skew"/>
+      <Choice value="warping"/>
+      <Choice value="scan_lines_or_band"/>
+      <Choice value="low_contrast"/>
+      <Choice value="blurry"/>
+      <Choice value="noise_grain"/>
+      <Choice value="overprint_or_overlay"/>
+      <Choice value="show_through"/>
+      <Choice value="other"/>
+    </Choices>
 
 
-  <!-- ═══════════════════════════════════════════════════════════════════════ -->
-  <!--  TABLE ATTRIBUTES (fill in when Region Type = table)                   -->
-  <!-- ═══════════════════════════════════════════════════════════════════════ -->
+    <!-- Table attributes — collapsed by default -->
+    <View collapsible="true" collapsed="true">
+      <Header value="TABLE ATTRIBUTES — complete only for table regions"/>
 
-  <Header value="TABLE ATTRIBUTES — complete only for table regions"/>
+      <Header value="Layout"/>
+      <Choices name="table_layout" toName="image" choice="single"
+               perRegion="true" showInLine="true">
+        <Choice value="vertical"/>
+        <Choice value="horizontal"/>
+        <Choice value="other"/>
+        <Choice value="unknown"/>
+      </Choices>
 
-  <Header value="Layout"/>
-  <Choices name="table_layout" toName="image" choice="single"
-           perRegion="true" showInLine="true">
-    <Choice value="vertical"/>
-    <Choice value="horizontal"/>
-    <Choice value="other"/>
-    <Choice value="unknown"/>
-  </Choices>
+      <Header value="Merged Cells"/>
+      <Choices name="table_merged_cells" toName="image" choice="single"
+               perRegion="true" showInLine="true">
+        <Choice value="true"/>
+        <Choice value="false"/>
+      </Choices>
 
-  <Header value="Merged Cells"/>
-  <Choices name="table_merged_cells" toName="image" choice="single"
-           perRegion="true" showInLine="true">
-    <Choice value="true"/>
-    <Choice value="false"/>
-  </Choices>
+      <Header value="Borders"/>
+      <Choices name="table_borders" toName="image" choice="single"
+               perRegion="true" showInLine="true">
+        <Choice value="full_line"/>
+        <Choice value="less_line"/>
+        <Choice value="fewer_line"/>
+        <Choice value="wireless_line"/>
+        <Choice value="other"/>
+        <Choice value="unknown"/>
+      </Choices>
 
-  <Header value="Borders"/>
-  <Choices name="table_borders" toName="image" choice="single"
-           perRegion="true" showInLine="true">
-    <Choice value="full_line"/>
-    <Choice value="less_line"/>
-    <Choice value="fewer_line"/>
-    <Choice value="wireless_line"/>
-    <Choice value="other"/>
-    <Choice value="unknown"/>
-  </Choices>
-
-  <Header value="Coloured Cells"/>
-  <Choices name="table_coloured_cells" toName="image" choice="single"
-           perRegion="true" showInLine="true">
-    <Choice value="true"/>
-    <Choice value="false"/>
-  </Choices>
-
-
-  <!-- ═══════════════════════════════════════════════════════════════════════ -->
-  <!--  FORM ATTRIBUTES (fill in when Region Type = form)                     -->
-  <!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-  <Header value="FORM ATTRIBUTES — complete only for form regions"/>
-
-  <Header value="Fill Status"/>
-  <Choices name="form_field_status" toName="image" choice="single"
-           perRegion="true" showInLine="true">
-    <Choice value="filled"/>
-    <Choice value="partially_filled"/>
-    <Choice value="unfilled"/>
-  </Choices>
-
-  <Header value="Text Style"/>
-  <Choices name="form_text_style" toName="image" choice="single"
-           perRegion="true" showInLine="true">
-    <Choice value="purely_printed"/>
-    <Choice value="purely_handwritten"/>
-    <Choice value="mixed"/>
-    <Choice value="unknown"/>
-  </Choices>
+      <Header value="Coloured Cells"/>
+      <Choices name="table_coloured_cells" toName="image" choice="single"
+               perRegion="true" showInLine="true">
+        <Choice value="true"/>
+        <Choice value="false"/>
+      </Choices>
+    </View>
 
 
-  <!-- ═══════════════════════════════════════════════════════════════════════ -->
-  <!--  SYMBOL ATTRIBUTES (fill in when Region Type = symbol)                 -->
-  <!-- ═══════════════════════════════════════════════════════════════════════ -->
+    <!-- Form attributes — collapsed by default -->
+    <View collapsible="true" collapsed="true">
+      <Header value="FORM ATTRIBUTES — complete only for form regions"/>
 
-  <Header value="SYMBOL ATTRIBUTES — complete only for symbol regions"/>
+      <Header value="Fill Status"/>
+      <Choices name="form_field_status" toName="image" choice="single"
+               perRegion="true" showInLine="true">
+        <Choice value="filled"/>
+        <Choice value="partially_filled"/>
+        <Choice value="unfilled"/>
+      </Choices>
 
-  <Header value="Type"/>
-  <Choices name="symbol_type" toName="image" choice="single"
-           perRegion="true" showInLine="true">
-    <Choice value="checkbox"/>
-    <Choice value="radio_button"/>
-    <Choice value="other"/>
-  </Choices>
-
-  <Header value="State"/>
-  <Choices name="symbol_state" toName="image" choice="single"
-           perRegion="true" showInLine="true">
-    <Choice value="checked"/>
-    <Choice value="unchecked"/>
-    <Choice value="unknown"/>
-  </Choices>
+      <Header value="Text Style"/>
+      <Choices name="form_text_style" toName="image" choice="single"
+               perRegion="true" showInLine="true">
+        <Choice value="purely_printed"/>
+        <Choice value="purely_handwritten"/>
+        <Choice value="mixed"/>
+        <Choice value="unknown"/>
+      </Choices>
+    </View>
 
 
-  <!-- ═══════════════════════════════════════════════════════════════════════ -->
-  <!--  STAMP ATTRIBUTES (fill in when Region Type = stamp)                   -->
-  <!-- ═══════════════════════════════════════════════════════════════════════ -->
+    <!-- Symbol attributes — collapsed by default -->
+    <View collapsible="true" collapsed="true">
+      <Header value="SYMBOL ATTRIBUTES — complete only for symbol regions"/>
 
-  <Header value="STAMP ATTRIBUTES — complete only for stamp regions"/>
+      <Header value="Type"/>
+      <Choices name="symbol_type" toName="image" choice="single"
+               perRegion="true" showInLine="true">
+        <Choice value="checkbox"/>
+        <Choice value="radio_button"/>
+        <Choice value="other"/>
+      </Choices>
 
-  <Header value="Shape"/>
-  <Choices name="stamp_shape" toName="image" choice="single"
-           perRegion="true" showInLine="true">
-    <Choice value="circular"/>
-    <Choice value="rectangular"/>
-    <Choice value="oval"/>
-    <Choice value="irregular"/>
-    <Choice value="other"/>
-  </Choices>
+      <Header value="State"/>
+      <Choices name="symbol_state" toName="image" choice="single"
+               perRegion="true" showInLine="true">
+        <Choice value="checked"/>
+        <Choice value="unchecked"/>
+        <Choice value="unknown"/>
+      </Choices>
+    </View>
 
-  <Header value="Ink Colour"/>
-  <Choices name="stamp_ink" toName="image" choice="single"
-           perRegion="true" showInLine="true">
-    <Choice value="red"/>
-    <Choice value="blue"/>
-    <Choice value="black"/>
-    <Choice value="other"/>
-  </Choices>
 
-  <Header value="Legibility"/>
-  <Choices name="stamp_legibility" toName="image" choice="single"
-           perRegion="true" showInLine="true">
-    <Choice value="clear"/>
-    <Choice value="partial"/>
-    <Choice value="illegible"/>
-  </Choices>
+    <!-- Stamp attributes — collapsed by default -->
+    <View collapsible="true" collapsed="true">
+      <Header value="STAMP ATTRIBUTES — complete only for stamp regions"/>
+
+      <Header value="Shape"/>
+      <Choices name="stamp_shape" toName="image" choice="single"
+               perRegion="true" showInLine="true">
+        <Choice value="circular"/>
+        <Choice value="rectangular"/>
+        <Choice value="oval"/>
+        <Choice value="irregular"/>
+        <Choice value="other"/>
+      </Choices>
+
+      <Header value="Legibility"/>
+      <Choices name="stamp_legibility" toName="image" choice="single"
+               perRegion="true" showInLine="true">
+        <Choice value="clear"/>
+        <Choice value="partial"/>
+        <Choice value="illegible"/>
+      </Choices>
+    </View>
+
+  </View>
 
 </View>
